@@ -5,11 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pz1.TaskSystem.Tasks
 
-{
-    internal class Task4 :ITaskeable
-    {
         public void StartTask()
         {
             Random random = new Random();
@@ -35,7 +31,6 @@ namespace Pz1.TaskSystem.Tasks
             Console.WriteLine("Array Y (elements with absolute value greater than M): " + string.Join(", ", Y));
         }
 
-        public void StopTask()
         {
             Console.Clear();
         }
