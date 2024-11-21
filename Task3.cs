@@ -1,7 +1,6 @@
 ﻿namespace Pz1.TaskSystem.Tasks
 {
-    internal class Task3 : ITaskeable
-    {
+  
         private int _min;
         private int _max;
 
@@ -62,7 +61,7 @@
             return number >= min && number <= max;
         }
 
-        public void StopTask()
+     
         {
             Console.Clear();
         }
