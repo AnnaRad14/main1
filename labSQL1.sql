@@ -7,10 +7,10 @@ CREATE TABLE my_table (
 ALTER TABLE my_table ADD COLUMN age INT;
 
 INSERT INTO my_table (name, age) VALUES 
-('Alice', 25),
-('Bob', 30),
-('Charlie', 22),
-('David', 35);
+('A', 25),
+('B', 30),
+('C', 22),
+('D', 35);
 
 SELECT * FROM my_table;
 SELECT * FROM my_table WHERE age >= 25;
