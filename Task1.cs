@@ -1,41 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-
-class Task1
+namespace pz1
+{
+    class Task1 : ITask
     {
-        static void Main()
+        private const int StudentNumber = 4; 
+
+        public void Execute()
         {
-            Console.Write("Введіть останню цифру порядкового номеру: ");
-            int groupNumberLastDigit = int.Parse(Console.ReadLine());
-            int upperBound = 10 + groupNumberLastDigit;
-
-            Console.WriteLine($"Введіть три числа, які будуть перевірятися на належність інтервалу [1, {upperBound}]");
-
-            int num1 = int.Parse(Console.ReadLine());
-            int num2 = int.Parse(Console.ReadLine());
-            int num3 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine($"Числа, що належать інтервалу [1, {upperBound}]:");
-
-            if (num1 >= 1 && num1 <= upperBound)
+            Console.WriteLine("Введіть три цілих числа:");
+            int[] numbers = new int[3];
+            
+            for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine(num1);
+                Console.Write($"Число {i + 1}: ");
+                if (!int.TryParse(Console.ReadLine(), out numbers[i]))
+                {
+                    Console.WriteLine("Некоректне введення. Будь ласка, введіть ціле число.");
+                    i--;
+                    continue;
+                }
             }
 
-            if (num2 >= 1 && num2 <= upperBound)
+            Console.WriteLine($"Числа, які належать інтервалу [1,{10 + StudentNumber}]:");
+            foreach (int num in numbers)
             {
-                Console.WriteLine(num2);
-            }
-
-            if (num3 >= 1 && num3 <= upperBound)
-            {
-                Console.WriteLine(num3);
+                if (num >= 1 && num <= 10 + StudentNumber)
+                {
+                    Console.WriteLine(num);
+                }
             }
         }
     }
-
-
+}
