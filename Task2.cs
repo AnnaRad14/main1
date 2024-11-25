@@ -1,39 +1,35 @@
-﻿using System;
+using System;
 
-class Task2
+namespace pz1
 {
-    static void Main()
+    class Task1 : ITask
     {
-        Console.Write("Add 3 sides: ");
+        private const int StudentNumber = 4; 
 
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-        int C = int.Parse(Console.ReadLine());
-
-        if ((A + B <= C) || (A + C <= B) || (B + C <= A))
+        public void Execute()
         {
-            Console.WriteLine("This is no triangle!");
-            return;
-        }
+            Console.WriteLine("Введіть три цілих числа:");
+            int[] numbers = new int[3];
+            
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write($"Число {i + 1}: ");
+                if (!int.TryParse(Console.ReadLine(), out numbers[i]))
+                {
+                    Console.WriteLine("Некоректне введення. Будь ласка, введіть ціле число.");
+                    i--;
+                    continue;
+                }
+            }
 
-        int Perimeter = A + B + C;
-        Console.WriteLine($"Perimeter: {Perimeter}");
-
-        double p = Perimeter / 2.0;
-        double Area = Math.Sqrt(p * (p - A) * (p - B) * (p - C));
-        Console.WriteLine($"Area: {Area}");
-
-        if (A == B && B == C)
-        {
-            Console.WriteLine("This is an equilateral triangle!");
-        }
-        else if (A == B || B == C || A == C)
-        {
-            Console.WriteLine("This triangle is isosceles!");
-        }
-        else
-        {
-            Console.WriteLine("This is a scalene triangle!");
+            Console.WriteLine($"Числа, які належать інтервалу [1,{10 + StudentNumber}]:");
+            foreach (int num in numbers)
+            {
+                if (num >= 1 && num <= 10 + StudentNumber)
+                {
+                    Console.WriteLine(num);
+                }
+            }
         }
     }
 }
