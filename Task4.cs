@@ -1,38 +1,36 @@
-﻿using Pz1.TaskSystem;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-
-        public void StartTask()
+namespace pz1
+{
+    class Task4 : ITask
+    {
+        private const int StudentNumber = 4; 
+        public void Execute()
         {
+            int arrayLength = 10 + StudentNumber;
+            int[] arrayX = new int[arrayLength];
             Random random = new Random();
 
-            Console.Write("Enter the last digit of your student number: ");
-            int studentNumber = int.Parse(Console.ReadLine());
-
-            int arrayLength = 10 + studentNumber;
-
-            int[] X = new int[arrayLength];
-            for (int i = 0; i < X.Length; i++)
+            for (int i = 0; i < arrayLength; i++)
             {
-                X[i] = random.Next(-20, 21);
+                arrayX[i] = random.Next(-100, 101);
             }
 
-            Console.Write("Enter the number M: ");
-            int M = int.Parse(Console.ReadLine());
+            Console.Write("Введіть число M: ");
+            if (!int.TryParse(Console.ReadLine(), out int m))
+            {
+                Console.WriteLine("Некоректне введення числа M.");
+                return;
+            }
 
-            int[] Y = X.Where(n => Math.Abs(n) > M).ToArray();
+            var arrayY = arrayX.Where(x => Math.Abs(x) > m).ToArray();
 
-            Console.WriteLine("Given number M: " + M);
-            Console.WriteLine("Array X: " + string.Join(", ", X));
-            Console.WriteLine("Array Y (elements with absolute value greater than M): " + string.Join(", ", Y));
-        }
-
-        {
-            Console.Clear();
+            Console.WriteLine($"Число M: {m}");
+            Console.WriteLine("Масив X:");
+            Console.WriteLine(string.Join(", ", arrayX));
+            Console.WriteLine("Масив Y - елементи, які більші за |M|:");
+            Console.WriteLine(string.Join(", ", arrayY));
         }
     }
 }
