@@ -1,0 +1,14 @@
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\bin\Debug\net8.0\JsonEx.exe
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\bin\Debug\net8.0\JsonEx.deps.json
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\bin\Debug\net8.0\JsonEx.runtimeconfig.json
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\bin\Debug\net8.0\JsonEx.dll
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\bin\Debug\net8.0\JsonEx.pdb
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\JsonEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\JsonEx.AssemblyInfoInputs.cache
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\JsonEx.AssemblyInfo.cs
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\JsonEx.csproj.CoreCompileInputs.cache
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\JsonEx.dll
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\refint\JsonEx.dll
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\JsonEx.pdb
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\JsonEx.genruntimeconfig.cache
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonExample\JsonEx\obj\Debug\net8.0\ref\JsonEx.dll

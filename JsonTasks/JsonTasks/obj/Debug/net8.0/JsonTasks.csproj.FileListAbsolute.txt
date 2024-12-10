@@ -1,0 +1,14 @@
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\bin\Debug\net8.0\JsonTasks.exe
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\bin\Debug\net8.0\JsonTasks.deps.json
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\bin\Debug\net8.0\JsonTasks.runtimeconfig.json
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\bin\Debug\net8.0\JsonTasks.dll
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\bin\Debug\net8.0\JsonTasks.pdb
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\JsonTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\JsonTasks.AssemblyInfoInputs.cache
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\JsonTasks.AssemblyInfo.cs
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\JsonTasks.csproj.CoreCompileInputs.cache
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\JsonTasks.dll
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\refint\JsonTasks.dll
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\JsonTasks.pdb
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\JsonTasks.genruntimeconfig.cache
+C:\Users\Цуканов Сергей\Desktop\CS-Project\JsonTasks\JsonTasks\JsonTasks\obj\Debug\net8.0\ref\JsonTasks.dll
